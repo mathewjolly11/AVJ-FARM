@@ -1,0 +1,30 @@
+🌱 AVJ FARM - Aquaponics & Fish Farming Website
+Welcome to AVJ FARM, a modern and responsive website designed for aquaponics farming, fish farming, and sustainable agriculture. This website showcases services, products, blogs, and videos related to farming techniques, aquaculture, and organic vegetable cultivation.
+
+🚀 Features
+🌾 Home Page: Clean landing page with hero banners, services, testimonials, and contact info.
+
+🐟 About Us: Details about AVJ FARM's mission and activities.
+
+🐠 Services: Aquaponics, fish farming, and vegetable farming services.
+
+📹 Video Gallery: Embedded YouTube videos of farming techniques and documentaries (including "Old Videos" section).
+
+📰 Blog Section: Latest articles and farming updates (optional or replaceable with videos).
+
+🏞️ Gallery: Farm photos and success stories.
+
+📞 Contact Page: Contact form with Google Maps location.
+
+🔥 Fully responsive — works on desktops, tablets, and mobiles.
+
+💻 Tech Stack
+✅ Frontend: HTML5, CSS3, JavaScript
+
+🎨 Framework: Bootstrap 5
+
+🌐 Icons: Bootstrap Icons / Font Awesome
+
+🎥 Videos: Embedded YouTube iframes
+
+✨ Carousel/Slider: Owl Carousel (for testimonials)
