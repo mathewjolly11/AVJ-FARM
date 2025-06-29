@@ -297,7 +297,7 @@
 
  .scrolling-banner {
             position: fixed;
-            bottom: 0;  /* Change to top: 0; to show at the top */
+          top: 0;  /* Change to top: 0; to show at the top */
             width: 100%;
             background-color: rgba(0, 0, 0, 0.8);
             color: white;
