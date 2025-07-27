@@ -73,6 +73,23 @@
   ]
 }
 </script>
+<script>
+  document.addEventListener("deviceready", function () {
+    window.plugins.OneSignal.setAppId("a17df2cc-9507-4acd-823a-7001a1a0986d");
+
+    // Optional: Prompt for notification permission
+    window.plugins.OneSignal.promptForPushNotificationsWithUserResponse(function(accepted) {
+      console.log("User accepted notifications: " + accepted);
+    });
+
+    // Optional: Handle notification received
+    window.plugins.OneSignal.setNotificationOpenedHandler(function(notification) {
+      alert("Notification opened: " + JSON.stringify(notification));
+      // You can redirect to a specific page if needed
+    });
+  }, false);
+</script>
+
 
 </head>
 
