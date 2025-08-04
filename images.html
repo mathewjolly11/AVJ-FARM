@@ -3,27 +3,27 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Our Gallery - AVJ FARM</title>
+    <title>Image Gallery - AVJ FARM</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Aquaponics gallery, farm photos, sustainable farming images, fish farming, Kerala aquaculture" name="keywords">
-    <meta content="Explore AVJ Farm's gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." name="description">
+    <meta content="Aquaponics image gallery, farm photos, sustainable farming images, fish farming, Kerala aquaculture" name="keywords">
+    <meta content="Explore AVJ Farm's image gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." name="description">
 
     <!-- Favicon -->
     <link href="img/logo.png" rel="icon">
 
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Our Gallery - AVJ FARM | Sustainable Farming in Kerala" />
+    <meta property="og:title" content="Image Gallery - AVJ FARM | Sustainable Farming in Kerala" />
     <meta property="og:description"
-        content="Explore AVJ Farm's gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." />
+        content="Explore AVJ Farm's image gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." />
     <meta property="og:image" content="https://avjfarm.vercel.app/img/og-image.png" />
-    <meta property="og:url" content="https://avjfarm.vercel.app/gallery.html" />
+    <meta property="og:url" content="https://avjfarm.vercel.app/images.html" />
     <meta property="og:type" content="website" />
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Our Gallery - AVJ FARM | Sustainable Farming in Kerala" />
+    <meta name="twitter:title" content="Image Gallery - AVJ FARM | Sustainable Farming in Kerala" />
     <meta name="twitter:description"
-        content="Explore AVJ Farm's gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." />
+        content="Explore AVJ Farm's image gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." />
     <meta name="twitter:image" content="https://avjfarm.vercel.app/img/og-image.png" />
 
     <!-- Google Web Fonts -->
@@ -67,9 +67,9 @@
     {
       "@context": "https://schema.org",
       "@type": "WebPage",
-      "name": "Our Gallery - AVJ FARM",
-      "url": "https://avjfarm.vercel.app/gallery.html",
-      "description": "Explore AVJ Farm's gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala.",
+      "name": "Image Gallery - AVJ FARM",
+      "url": "https://avjfarm.vercel.app/images.html",
+      "description": "Explore AVJ Farm's image gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala.",
       "isPartOf": {
         "@type": "Organization",
         "name": "AVJ FARM",
@@ -138,9 +138,6 @@
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         }
-        
-        /* Remove custom navbar styles to use the global ones from style.css */
-        /* Custom navbar styles removed to use global styling */
 
         .modern-hero {
             background: linear-gradient(135deg, var(--primary) 0%, #1565C0 50%, var(--secondary) 100%);
@@ -186,94 +183,6 @@
             font-weight: 600;
         }
         
-        .gallery-item {
-            position: relative;
-            overflow: hidden;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-            cursor: pointer;
-        }
-
-        .gallery-item img {
-            transition: transform 0.5s ease;
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
-        
-        .gallery-item:hover img {
-            transform: scale(1.05);
-        }
-        
-        .gallery-item .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 50%);
-            display: flex;
-            align-items: flex-end;
-            padding: 20px;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-        
-        .gallery-item:hover .overlay {
-            opacity: 1;
-        }
-        
-        .gallery-item .overlay h5 {
-            color: white;
-            margin-bottom: 0;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        }
-        
-        .gallery-category {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            background: var(--primary);
-            color: white;
-            padding: 5px 15px;
-            border-radius: 50px;
-            font-size: 12px;
-            font-weight: 600;
-        }
-
-        .section-title h6 {
-            color: var(--primary);
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 15px;
-        }
-
-        .section-title h1 {
-            font-size: 3rem;
-            font-weight: 700;
-            color: var(--dark);
-            margin-bottom: 25px;
-            line-height: 1.2;
-        }
-
-        .filter-btn {
-            background: #f8f9fa;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 50px;
-            margin: 0 5px 10px;
-            color: var(--text-secondary);
-            font-weight: 500;
-            transition: all 0.3s ease;
-        }
-        
-        .filter-btn.active, .filter-btn:hover {
-            background: var(--primary);
-            color: white;
-        }
-        
         @media (max-width: 768px) {
             .modern-hero h1 {
                 font-size: 2.5rem;
@@ -287,22 +196,10 @@
                 padding: 15px 20px !important;
             }
             
-            .filter-btn {
+            .gallery-filter-btn {
                 padding: 8px 15px;
                 font-size: 14px;
             }
-        }
-
-        /* Loading Animation */
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s ease;
-        }
-
-        .animate-on-scroll.animated {
-            opacity: 1;
-            transform: translateY(0);
         }
     </style>
 </head>
@@ -361,14 +258,13 @@
                     <a href="about.html" class="nav-link text-white fw-500 px-4 py-3">About</a>
                     <a href="service.html" class="nav-link text-white fw-500 px-4 py-3">Services</a>
                     <a href="product.html" class="nav-link text-white fw-500 px-4 py-3">Products</a>
-                    <a href="gallery.html" class="nav-link text-white fw-500 px-4 py-3 active">Gallery</a>
-                    <a href="images.html" class="nav-link text-white fw-500 px-4 py-3">Images</a>
+                    <a href="gallery.html" class="nav-link text-white fw-500 px-4 py-3">Gallery</a>
+                    <a href="images.html" class="nav-link text-white fw-500 px-4 py-3 active">Images</a>
                     <a href="videos.html" class="nav-link text-white fw-500 px-4 py-3">Videos</a>
                     <a href="contact.html" class="nav-link text-white fw-500 px-4 py-3">Contact</a>
                 </div>
                 <div class="d-flex">
-                   <a href="contact.html" class="btn btn-secondary px-4 py-2 ms-3 d-none d-lg-inline-block">Order
-                        Now</a>
+                    <a href="contact.html" class="btn btn-secondary px-4 py-2 ms-3 d-none d-lg-inline-block">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -380,20 +276,23 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-8">
-                    <h1 class="text-white mb-4 animate__animated animate__fadeInUp">Our Gallery</h1>
+                    <h1 class="text-white mb-4 animate__animated animate__fadeInUp">Image Gallery</h1>
                     <p class="text-white-50 fs-5 mb-4 animate__animated animate__fadeInUp animate__delay-1s">
-                        Explore our visual journey of sustainable aquaponics farming, showcasing our farm, products, and operations in Thodupuzha, Kerala.
+                        Browse through our collection of farm photos showcasing our aquaponics systems, fish varieties, and organic produce.
                     </p>
                     <nav aria-label="breadcrumb" class="animate__animated animate__fadeInUp animate__delay-2s">
                         <ol class="breadcrumb breadcrumb-modern mb-0">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Gallery</li>
+                            <li class="breadcrumb-item"><a href="gallery.html">Gallery</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Images</li>
                         </ol>
                     </nav>
                 </div>
                 <div class="col-lg-4 text-center animate__animated animate__fadeInRight animate__delay-1s">
-                    <div class="service-icon mx-auto" style="width: 120px; height: 120px; font-size: 3rem;">
-                        <i class="fas fa-images"></i>
+                    <div class="bg-white bg-opacity-10 rounded-circle p-4 mx-auto" style="width: 200px; height: 200px">
+                        <div class="d-flex align-items-center justify-content-center h-100">
+                            <i class="fas fa-image fa-4x text-white"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -401,70 +300,181 @@
     </section>
     <!-- Hero End -->
 
-    <!-- Gallery Options Start -->
-    <section class="py-5" id="gallery-options">
-        <div class="container">
+    <!-- Gallery Start -->
+    <section class="gallery-section" id="gallery">
+        <div class="container py-5">
             <div class="row g-5 align-items-center mb-5">
                 <div class="col-lg-6">
                     <div class="section-title">
-                        <h6 class="animate__animated animate__fadeIn">Gallery Collections</h6>
-                        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Explore Our Media</h1>
+                        <h6 class="animate__animated animate__fadeIn">Our Visual Journey</h6>
+                        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Explore Our Aquaponic Farm</h1>
                         <p class="lead text-muted animate__animated animate__fadeIn animate__delay-2s">
-                            Discover AVJ Farm through our comprehensive media gallery - browse our image collections or watch our informative videos.
+                            Take a visual tour through AVJ Farm - from our sustainable aquaponic systems to our naturally raised fish and organically grown vegetables.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
                     <div class="service-icon mx-auto animate__animated animate__fadeInRight animate__delay-2s" style="width: 150px; height: 150px; font-size: 4rem;">
-                        <i class="fas fa-photo-video"></i>
+                        <i class="fas fa-camera"></i>
                     </div>
                 </div>
             </div>
             
-            <div class="row g-4">
-                <!-- Image Gallery Card -->
-                <div class="col-lg-6 animate__animated animate__fadeInLeft animate__delay-2s">
-                    <div class="card border-0 shadow-lg h-100">
-                        <div class="position-relative overflow-hidden" style="height: 300px; background: linear-gradient(135deg, #1976D2, #64B5F6);">
-                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                                <div class="text-center">
-                                    <i class="fas fa-images fa-4x text-white mb-3"></i>
-                                    <h3 class="text-white">Image Gallery</h3>
-                                    <p class="text-white-50 mb-0">High-Quality Farm Photos</p>
+            <div class="row mb-5 justify-content-center">
+                <div class="col-12">
+                    <div class="gallery-filter animate__animated animate__fadeIn animate__delay-2s">
+                        <button class="gallery-filter-btn active" data-filter="*">All</button>
+                        <button class="gallery-filter-btn" data-filter=".farm">Farm</button>
+                        <button class="gallery-filter-btn" data-filter=".fish">Fish</button>
+                        <button class="gallery-filter-btn" data-filter=".vegetables">Vegetables</button>
+                        <button class="gallery-filter-btn" data-filter=".systems">Systems</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row gallery-grid">
+                <!-- Farm Images -->
+                <div class="col-lg-4 col-md-6 gallery-item farm animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/about.png" alt="AVJ Farm Overview" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
                                 </div>
+                                <h5>AVJ Farm Overview</h5>
+                                <p>Our sustainable farm from above</p>
                             </div>
-                        </div>
-                        <div class="card-body text-center p-4">
-                            <h4 class="card-title">Farm & Products Photos</h4>
-                            <p class="card-text text-muted mb-4">Browse through our collection of high-quality images showcasing our farm, fish varieties, and organic produce.</p>
-                            <a href="images.html" class="btn btn-primary px-4 py-2">View Images</a>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 
-                <!-- Video Gallery Card -->
-                <div class="col-lg-6 animate__animated animate__fadeInRight animate__delay-2s">
-                    <div class="card border-0 shadow-lg h-100">
-                        <div class="position-relative overflow-hidden" style="height: 300px; background: linear-gradient(135deg, #1565C0, #1976D2);">
-                            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
-                                <div class="text-center">
-                                    <i class="fas fa-video fa-4x text-white mb-3"></i>
-                                    <h3 class="text-white">Video Gallery</h3>
-                                    <p class="text-white-50 mb-0">Educational Content</p>
+                <div class="col-lg-4 col-md-6 gallery-item farm animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/aboutbg.png" alt="Farm Background" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
                                 </div>
+                                <h5>Our Sustainable Setup</h5>
+                                <p>The infrastructure that powers our farm</p>
                             </div>
-                        </div>
-                        <div class="card-body text-center p-4">
-                            <h4 class="card-title">Educational Videos</h4>
-                            <p class="card-text text-muted mb-4">Watch our informative videos about sustainable aquaponics farming, fish breeding, and agricultural practices.</p>
-                            <a href="videos.html" class="btn btn-primary px-4 py-2">Watch Videos</a>
-                        </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item farm animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/feature.png" alt="Farm Feature" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Aquaponics Technology</h5>
+                                <p>Modern farming techniques in action</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Fish Images -->
+                <div class="col-lg-4 col-md-6 gallery-item fish animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/tilapia.jpeg" alt="Tilapia Fish" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Fresh Tilapia</h5>
+                                <p>Naturally grown without chemicals</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item fish animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/murrel.jpg" alt="Murrel Fish" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Premium Murrel</h5>
+                                <p>High-quality protein source</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item fish animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/pangasius.jpg" alt="Pangasius Fish" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Quality Pangasius</h5>
+                                <p>Farm-fresh and sustainable</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Vegetable Images -->
+                <div class="col-lg-4 col-md-6 gallery-item vegetables animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/vegetable.png" alt="Organic Vegetables" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Organic Vegetables</h5>
+                                <p>Grown in our aquaponic system</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 gallery-item vegetables animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/fruit.png" alt="Organic Fruits" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Fresh Produce</h5>
+                                <p>Locally grown and pesticide-free</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Systems Images -->
+                <div class="col-lg-4 col-md-6 gallery-item systems animate__animated animate__fadeIn animate__delay-3s">
+                    <div class="gallery-item-inner">
+                        <a href="#" class="gallery-item-link">
+                            <img src="img/aboutfish.png" alt="Fish Tanks" class="gallery-img">
+                            <div class="gallery-overlay">
+                                <div class="gallery-icon">
+                                    <i class="fas fa-search-plus"></i>
+                                </div>
+                                <h5>Aquaponic Fish Tanks</h5>
+                                <p>Our innovative farming system</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Gallery Options End -->
+    <!-- Gallery End -->
 
     <!-- Footer Start -->
     <footer class="footer mt-5" style="background: linear-gradient(135deg, #1976D2, #1565C0);">
@@ -475,8 +485,8 @@
                         <div class="d-flex align-items-center mb-4">
                             <img src="img/logobg.png" alt="AVJ Farm" width="60" height="60" class="me-3">
                             <div>
-                                <h3 class="text-white fw-bold mb-1">AVJ FARM</h3>
-                                <p class="text-white-50 mb-0">Sustainable Aquaponics</p>
+                                <h5 class="mb-0 text-white fw-bold">AVJ FARM</h5>
+                                <small class="text-white-50">Sustainable Aquaponics</small>
                             </div>
                         </div>
                         <p class="text-white-50 mb-4">
@@ -494,38 +504,27 @@
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h5 class="text-white fw-bold mb-4">Quick Links</h5>
                     <div class="d-flex flex-column gap-2">
-                        <a href="index.html" class="text-white-50 text-decoration-none hover-link">
-                            <i class="fas fa-chevron-right me-2 small"></i>Home
-                        </a>
-                        <a href="about.html" class="text-white-50 text-decoration-none hover-link">
-                            <i class="fas fa-chevron-right me-2 small"></i>About Us
-                        </a>
-                        <a href="service.html" class="text-white-50 text-decoration-none hover-link">
-                            <i class="fas fa-chevron-right me-2 small"></i>Services
-                        </a>
-                        <a href="product.html" class="text-white-50 text-decoration-none hover-link">
-                            <i class="fas fa-chevron-right me-2 small"></i>Products
-                        </a>
-                        <a href="gallery.html" class="text-white-50 text-decoration-none hover-link">
-                            <i class="fas fa-chevron-right me-2 small"></i>Gallery
-                     </a>
-                        <a href="contact.html" class="text-white-50 text-decoration-none hover-link">
-                            <i class="fas fa-chevron-right me-2 small"></i>Contact
-                        </a>
+                        <a href="index.html" class="text-white-50 text-decoration-none hover-link">Home</a>
+                        <a href="about.html" class="text-white-50 text-decoration-none hover-link">About</a>
+                        <a href="service.html" class="text-white-50 text-decoration-none hover-link">Services</a>
+                        <a href="product.html" class="text-white-50 text-decoration-none hover-link">Products</a>
+                        <a href="gallery.html" class="text-white-50 text-decoration-none hover-link">Gallery</a>
+                        <a href="images.html" class="text-white-50 text-decoration-none hover-link">Images</a>
+                        <a href="contact.html" class="text-white-50 text-decoration-none hover-link">Contact</a>
                     </div>
                 </div>
                 
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="text-white fw-bold mb-4">Contact Info</h5>
                     <div class="contact-info">
-                        <div class="d-flex align-items-start mb-3">
+                        <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0">
                                 <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
                                     <i class="fas fa-map-marker-alt text-white"></i>
                                 </div>
                             </div>
                             <div class="ms-3">
-                                <p class="text-white-50 mb-0">Anachalil House, Mariyilkalunku, Thodupuzha, Kerala</p>
+                                <span class="text-white-50">Thodupuzha, Idukki, Kerala</span>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
@@ -545,24 +544,27 @@
                                 </div>
                             </div>
                             <div class="ms-3">
-                                <a href="mailto:avjfarm1@gmai.com" class="text-white-50 text-decoration-none">avjfarm1@gmai.com</a>
+                                <a href="mailto:info@avjfarm.com" class="text-white-50 text-decoration-none">info@avjfarm.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 
                 <div class="col-lg-3 col-md-6 mb-4">
-                    <h5 class="text-white fw-bold mb-4">Visit Our Farm</h5>
-                    <div class="map-container">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.597486903734!2d76.7139919!3d9.8840966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07c415ae6b566f%3A0xd7278abaef9275e7!2sAVJ%20Farm!5e0!3m2!1sen!2sin!4v1749003757291!5m2!1sen!2sin"
-                            width="100%" height="200" style="border:0; border-radius: 10px;" allowfullscreen=""
-                            loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="shadow-sm">
-                        </iframe>
-                    </div>
-                    <div class="mt-3">
-                        <p class="text-white-50 mb-2"><strong class="text-white">Open Hours:</strong></p>
-                        <p class="text-white-50 mb-0">Monday - Saturday: 9:00 AM - 5:00 PM</p>
+                    <h5 class="text-white fw-bold mb-4">Opening Hours</h5>
+                    <div class="d-flex flex-column">
+                        <div class="d-flex justify-content-between text-white-50 mb-2">
+                            <span>Monday - Friday:</span>
+                            <span>9:00 AM - 5:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between text-white-50 mb-2">
+                            <span>Saturday:</span>
+                            <span>9:00 AM - 3:00 PM</span>
+                        </div>
+                        <div class="d-flex justify-content-between text-white-50">
+                            <span>Sunday:</span>
+                            <span>Closed</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -570,17 +572,11 @@
             <hr class="text-white-50 my-4">
             
             <div class="row align-items-center py-3">
-                <div class="col-md-8">
-                    <p class="text-white-50 mb-0">
-                        © 2024 <strong class="text-white">AVJ FARM</strong>. All Rights Reserved. 
-                        Designed with ❤️ by <a href="https://mathewjolly.vercel.app" class="text-secondary text-decoration-none fw-bold">MJ Works</a>
-                    </p>
+                <div class="col-md-6 text-center text-md-start text-white-50">
+                    <p class="mb-0">&copy; <a href="#" class="text-white">AVJ Farm</a>. All Rights Reserved.</p>
                 </div>
-                <div class="col-md-4 text-md-end">
-                    <div class="d-flex justify-content-md-end gap-3">
-                        <a href="#" class="text-white-50 text-decoration-none small">Privacy Policy</a>
-                        <a href="#" class="text-white-50 text-decoration-none small">Terms of Service</a>
-                    </div>
+                <div class="col-md-6 text-center text-md-end text-white-50">
+                    <p class="mb-0">Designed by <a href="#" class="text-white">AVJ Team</a></p>
                 </div>
             </div>
         </div>
