@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <title>Image Gallery - AVJ FARM</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Aquaponics image gallery, farm photos, sustainable farming images, fish farming, Kerala aquaculture" name="keywords">
-    <meta content="Explore AVJ Farm's image gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala." name="description">
+    <meta content="Aquaponics image gallery, farm photos, sustainable farming images, fish farming, Kerala aquaculture"
+        name="keywords">
+    <meta
+        content="Explore AVJ Farm's image gallery showcasing our sustainable aquaponics system, fish varieties, and organic vegetable production in Thodupuzha, Kerala."
+        name="description">
 
     <!-- Favicon -->
     <link href="img/logo.png" rel="icon">
@@ -29,7 +32,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -55,14 +60,14 @@
 
     <!-- Vercel Analytics -->
     <script src="https://vercel.com/analytics/script.js" defer></script>
-    
+
     <!-- Cloudflare Web Analytics -->
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
         data-cf-beacon='{"token": "1aa235c3f1b741f695007e29059d887f"}'></script><!-- End Cloudflare Web Analytics -->
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3631964804804051"
         crossorigin="anonymous"></script>
-        
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -78,7 +83,7 @@
       }
     }
     </script>
-        
+
     <!-- Modern Custom Styles -->
     <style>
         /* Using same variable names as in style.css for consistency */
@@ -89,7 +94,7 @@
             --light: #FFFFFF;
             --dark: #212121;
             --text-secondary: #555555;
-            --shadow: rgba(0,0,0,0.08);
+            --shadow: rgba(0, 0, 0, 0.08);
             --gradient: linear-gradient(135deg, #1976D2, #64B5F6);
             --border-radius: 12px;
             --border-radius-lg: 20px;
@@ -110,9 +115,9 @@
         }
 
         .modern-topbar {
-            background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(248,249,250,0.95) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 249, 250, 0.95) 100%);
             backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(25,118,210,0.1);
+            border-bottom: 1px solid rgba(25, 118, 210, 0.1);
             padding: 15px 0;
         }
 
@@ -134,7 +139,7 @@
             border: none;
             color: white;
         }
-        
+
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='m4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
         }
@@ -161,19 +166,19 @@
             font-size: 4rem;
             font-weight: 700;
             margin-bottom: 30px;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
         }
 
         .breadcrumb-modern {
-            background: rgba(255,255,255,0.1);
+            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             border-radius: var(--border-radius);
             padding: 15px 25px;
-            border: 1px solid rgba(255,255,255,0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .breadcrumb-modern .breadcrumb-item a {
-            color: rgba(255,255,255,0.8);
+            color: rgba(255, 255, 255, 0.8);
             text-decoration: none;
             font-weight: 500;
         }
@@ -182,20 +187,20 @@
             color: white;
             font-weight: 600;
         }
-        
+
         @media (max-width: 768px) {
             .modern-hero h1 {
                 font-size: 2.5rem;
             }
-            
+
             .section-title h1 {
                 font-size: 2rem;
             }
-            
+
             .navbar-nav .nav-link {
                 padding: 15px 20px !important;
             }
-            
+
             .gallery-filter-btn {
                 padding: 8px 15px;
                 font-size: 14px;
@@ -205,7 +210,7 @@
 </head>
 
 <body>
- 
+
     <!-- Topbar Start -->
     <div class="container-fluid bg-white shadow-sm d-none d-lg-block">
         <div class="container">
@@ -243,13 +248,16 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg sticky-top" style="background: var(--primary); box-shadow: 0 2px 20px rgba(25, 118, 210, 0.3);">
+    <nav class="navbar navbar-expand-lg sticky-top"
+        style="background: var(--primary); box-shadow: 0 2px 20px rgba(25, 118, 210, 0.3);">
         <div class="container">
             <a href="index.html" class="navbar-brand d-flex d-lg-none align-items-center">
                 <img src="img/logobg.png" alt="Logo" width="40" height="40" class="me-2">
                 <span class="text-white fw-bold fs-4">AVJ FARM</span>
             </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -259,12 +267,12 @@
                     <a href="service.html" class="nav-link text-white fw-500 px-4 py-3">Services</a>
                     <a href="product.html" class="nav-link text-white fw-500 px-4 py-3">Products</a>
                     <a href="gallery.html" class="nav-link text-white fw-500 px-4 py-3">Gallery</a>
-                    <a href="images.html" class="nav-link text-white fw-500 px-4 py-3 active">Images</a>
-                    <a href="videos.html" class="nav-link text-white fw-500 px-4 py-3">Videos</a>
+
                     <a href="contact.html" class="nav-link text-white fw-500 px-4 py-3">Contact</a>
                 </div>
                 <div class="d-flex">
-                    <a href="contact.html" class="btn btn-secondary px-4 py-2 ms-3 d-none d-lg-inline-block">Contact Us</a>
+                    <a href="contact.html" class="btn btn-secondary px-4 py-2 ms-3 d-none d-lg-inline-block">Contact
+                        Us</a>
                 </div>
             </div>
         </div>
@@ -278,7 +286,8 @@
                 <div class="col-lg-8">
                     <h1 class="text-white mb-4 animate__animated animate__fadeInUp">Image Gallery</h1>
                     <p class="text-white-50 fs-5 mb-4 animate__animated animate__fadeInUp animate__delay-1s">
-                        Browse through our collection of farm photos showcasing our aquaponics systems, fish varieties, and organic produce.
+                        Browse through our collection of farm photos showcasing our aquaponics systems, fish varieties,
+                        and organic produce.
                     </p>
                     <nav aria-label="breadcrumb" class="animate__animated animate__fadeInUp animate__delay-2s">
                         <ol class="breadcrumb breadcrumb-modern mb-0">
@@ -307,19 +316,22 @@
                 <div class="col-lg-6">
                     <div class="section-title">
                         <h6 class="animate__animated animate__fadeIn">Our Visual Journey</h6>
-                        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Explore Our Aquaponic Farm</h1>
+                        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Explore Our Aquaponic Farm
+                        </h1>
                         <p class="lead text-muted animate__animated animate__fadeIn animate__delay-2s">
-                            Take a visual tour through AVJ Farm - from our sustainable aquaponic systems to our naturally raised fish and organically grown vegetables.
+                            Take a visual tour through AVJ Farm - from our sustainable aquaponic systems to our
+                            naturally raised fish and organically grown vegetables.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <div class="service-icon mx-auto animate__animated animate__fadeInRight animate__delay-2s" style="width: 150px; height: 150px; font-size: 4rem;">
+                    <div class="service-icon mx-auto animate__animated animate__fadeInRight animate__delay-2s"
+                        style="width: 150px; height: 150px; font-size: 4rem;">
                         <i class="fas fa-camera"></i>
                     </div>
                 </div>
             </div>
-            
+
             <div class="row mb-5 justify-content-center">
                 <div class="col-12">
                     <div class="gallery-filter animate__animated animate__fadeIn animate__delay-2s">
@@ -331,7 +343,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row gallery-grid">
                 <!-- Farm Images -->
                 <div class="col-lg-4 col-md-6 gallery-item farm animate__animated animate__fadeIn animate__delay-3s">
@@ -348,7 +360,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 gallery-item farm animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
                         <a href="#" class="gallery-item-link">
@@ -363,7 +375,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 gallery-item farm animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
                         <a href="#" class="gallery-item-link">
@@ -378,7 +390,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Fish Images -->
                 <div class="col-lg-4 col-md-6 gallery-item fish animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
@@ -394,7 +406,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 gallery-item fish animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
                         <a href="#" class="gallery-item-link">
@@ -409,7 +421,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4 col-md-6 gallery-item fish animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
                         <a href="#" class="gallery-item-link">
@@ -424,9 +436,10 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Vegetable Images -->
-                <div class="col-lg-4 col-md-6 gallery-item vegetables animate__animated animate__fadeIn animate__delay-3s">
+                <div
+                    class="col-lg-4 col-md-6 gallery-item vegetables animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
                         <a href="#" class="gallery-item-link">
                             <img src="img/vegetable.png" alt="Organic Vegetables" class="gallery-img">
@@ -440,8 +453,9 @@
                         </a>
                     </div>
                 </div>
-                
-                <div class="col-lg-4 col-md-6 gallery-item vegetables animate__animated animate__fadeIn animate__delay-3s">
+
+                <div
+                    class="col-lg-4 col-md-6 gallery-item vegetables animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
                         <a href="#" class="gallery-item-link">
                             <img src="img/fruit.png" alt="Organic Fruits" class="gallery-img">
@@ -455,7 +469,7 @@
                         </a>
                     </div>
                 </div>
-                
+
                 <!-- Systems Images -->
                 <div class="col-lg-4 col-md-6 gallery-item systems animate__animated animate__fadeIn animate__delay-3s">
                     <div class="gallery-item-inner">
@@ -490,7 +504,8 @@
                             </div>
                         </div>
                         <p class="text-white-50 mb-4">
-                            Leading the future of sustainable farming with innovative aquaponic systems. Fresh, organic, and eco-friendly produce directly from Thodupuzha, Kerala.
+                            Leading the future of sustainable farming with innovative aquaponic systems. Fresh, organic,
+                            and eco-friendly produce directly from Thodupuzha, Kerala.
                         </p>
                         <div class="d-flex gap-3">
                             <a href="#" class="btn btn-secondary btn-sm-square"><i class="fab fa-facebook-f"></i></a>
@@ -500,7 +515,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-2 col-md-6 mb-4">
                     <h5 class="text-white fw-bold mb-4">Quick Links</h5>
                     <div class="d-flex flex-column gap-2">
@@ -513,13 +528,14 @@
                         <a href="contact.html" class="text-white-50 text-decoration-none hover-link">Contact</a>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="text-white fw-bold mb-4">Contact Info</h5>
                     <div class="contact-info">
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0">
-                                <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
                                     <i class="fas fa-map-marker-alt text-white"></i>
                                 </div>
                             </div>
@@ -529,27 +545,31 @@
                         </div>
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0">
-                                <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
                                     <i class="fas fa-phone text-white"></i>
                                 </div>
                             </div>
                             <div class="ms-3">
-                                <a href="tel:+919447613494" class="text-white-50 text-decoration-none">+91 9447613494</a>
+                                <a href="tel:+919447613494" class="text-white-50 text-decoration-none">+91
+                                    9447613494</a>
                             </div>
                         </div>
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0">
-                                <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                <div class="bg-white bg-opacity-20 rounded-circle d-flex align-items-center justify-content-center"
+                                    style="width: 40px; height: 40px;">
                                     <i class="fas fa-envelope text-white"></i>
                                 </div>
                             </div>
                             <div class="ms-3">
-                                <a href="mailto:info@avjfarm.com" class="text-white-50 text-decoration-none">info@avjfarm.com</a>
+                                <a href="mailto:info@avjfarm.com"
+                                    class="text-white-50 text-decoration-none">info@avjfarm.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h5 class="text-white fw-bold mb-4">Opening Hours</h5>
                     <div class="d-flex flex-column">
@@ -568,9 +588,9 @@
                     </div>
                 </div>
             </div>
-            
+
             <hr class="text-white-50 my-4">
-            
+
             <div class="row align-items-center py-3">
                 <div class="col-md-6 text-center text-md-start text-white-50">
                     <p class="mb-0">&copy; <a href="#" class="text-white">AVJ Farm</a>. All Rights Reserved.</p>
@@ -598,7 +618,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    
+
     <!-- Gallery Javascript -->
     <script src="js/gallery.js"></script>
 
